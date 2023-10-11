@@ -10,8 +10,6 @@ print(my_dict)
 
 
 
-
-
 # дз номер 8
 list = (4,5,6)
 print(list)
@@ -23,8 +21,6 @@ for i in list:
 print(f'Сумма: {sum(list)}')
 
 
-
-
 # дз номер 7
 n = int(input("Введите целое число: "))
 i = 0
@@ -32,12 +28,6 @@ while i <= n:
     print(i)
     i += 1
 print(f"i-{i},pot-{n}")
-
-
-
-
-
-
 
 
 
