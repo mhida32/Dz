@@ -54,7 +54,7 @@ if vozrast >= 18:
 else:
 	print(f"Вы не совершеннолетний")
 print(name.isalpha())
-if name.isalpha() == true:
+if name.isalpha() == True:
 	print(f"Введите имя!")
 else:
 	print(f"Привет, {name}")
