@@ -27,7 +27,7 @@ window.mainloop()
 
 
 
-
+# задание 8
 # my_dict = dict(name = '',age = 0, city = "")
 # my_dict["name"] = input("Как тебя зовут?")
 # my_dict["age"] = input("Сколько тебе лет?")
@@ -37,7 +37,7 @@ window.mainloop()
 
 
 
-
+# задание 7
 # list = (4,5,6)
 # print(list)
 # print(f'Первое число: {list[0]}')
@@ -49,7 +49,7 @@ window.mainloop()
 
 
 
-
+# задание 6
 
 # n = int(input("Введите целое число: "))
 # i = 0
@@ -66,7 +66,7 @@ window.mainloop()
 
 
 
-
+ # задание 5
 # klava = int(input("Введи чисто от 1 до 10: "))
 # if klava % 3 == 0:
 #     print(f"Число делится на 3")
