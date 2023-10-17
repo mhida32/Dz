@@ -72,8 +72,10 @@ print(f"i-{i},pot-{n}")
 
  # задание 5
 klava = int(input("Введи чисто от 1 до 10: "))
-if klava % 3 == 0:
+if klava % 3 == 0 and klava <= 10:
     print(f"Число делится на 3")
+elif enter % 3 != 0 and enter <= 10:
+    print(f"Число не делится на 3")
 elif klava > 10:
     print("Число больше 10")
 else:
