@@ -77,6 +77,6 @@ window.mainloop()
 
 
 
-# list = [1,2,"хуй",'хуй2', True, False,5,"tt",7,9]
+# list = [1,2,"еей",'еее', True, False,5,"tt",7,9]
 # print(list[1:10:2])
 # print(list[0:5])
