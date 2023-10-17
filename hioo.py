@@ -1,28 +1,31 @@
-from tkinter import *
-from tkinter.ttk import Combobox
+# 9 - 10 задание в работе 
+# если код , то этот код еще находится в работе 
+credit by karpblch
+
+# from tkinter import *
+# from tkinter.ttk import Combobox
 
 
-def clicked():
-    res = "Привет {}".format(txt.get())
-    lbl.configure(text=res)
+# def clicked():
+#     res = "Привет {}".format(txt.get())
+#     lbl.configure(text=res)
 
 
-window = Tk()
-window.title("Добро пожаловать в приложение PythonRu")
-window.geometry('400x250')
-lbl = Label(window, text="Привет")
-lbl.grid(column=0, row=0)
-txt = Entry(window, width=10)
-txt.grid(column=1, row=0)
-btn = Button(window, text="Клик!", command=clicked)
-btn.grid(column=2, row=0)
-combo = Combobox(window)
-combo['values'] = (1, 2, 3, 4, 5, "Текст")
-combo.current(1)  # установите вариант по умолчанию
-combo.grid(column=0, row=1)
-window.mainloop()
-window.mainloop()
-
+# window = Tk()
+# window.title("Добро пожаловать в приложение PythonRu")
+# window.geometry('400x250')
+# lbl = Label(window, text="Привет")
+# lbl.grid(column=0, row=0)
+# txt = Entry(window, width=10)
+# txt.grid(column=1, row=0)
+# btn = Button(window, text="Клик!", command=clicked)
+# btn.grid(column=2, row=0)
+# combo = Combobox(window)
+# combo['values'] = (1, 2, 3, 4, 5, "Текст")
+# combo.current(1)  # установите вариант по умолчанию
+# combo.grid(column=0, row=1)
+# window.mainloop()
+# window.mainloop()
 
 
 
