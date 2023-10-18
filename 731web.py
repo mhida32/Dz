@@ -1,5 +1,6 @@
 from math import sqrt, pi
-print("Длины сторон треугольника:")
+
+print("Длины сторон треугольника:") 
 a = input("a = ")
 b = input("b = ")
 c = input("c = ")
@@ -12,6 +13,6 @@ if  a.isdigit() == True and  b.isdigit() == True and c.isdigit()== True:
         s = sqrt(p * (p - af) * (p - bf) * (p - cf))
         print("Площадь: %.2f" % s)
     else:
-        print("error")
+        print("Ошибка: Введеные числа не соответствуют условию или Введеные числа < 0")
 else:
-	print("error")
+	print("Ошибка: Введите число")
