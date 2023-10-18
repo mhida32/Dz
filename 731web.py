@@ -1,3 +1,4 @@
+# вариант 1
 from math import sqrt, pi
 
 print("Длины сторон треугольника:") 
@@ -16,3 +17,21 @@ if  a.isdigit() == True and  b.isdigit() == True and c.isdigit()== True:
         print("Ошибка: Введеные числа не соответствуют условию или Введеные числа < 0")
 else:
 	print("Ошибка: Введите число")
+# вариант 2
+from math import sqrt, pi
+def geon():
+    if a > 0 and b>0 and c >0 and a + b > c or a + c > b or b +c > a:
+        p = (a + b + c) / 2
+        s = sqrt(p * (p - a) * (p - b) * (p - c))
+        print("Площадь: %.2f" % s)
+    else:
+        print("Replay")
+while True:
+    try:
+        a = float(input("a = "))
+        b = float(input("b = "))
+        c = float(input("c = "))
+        geon()
+        break
+    except:
+        print("Ошибка: Введите число")
