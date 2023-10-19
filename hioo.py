@@ -5,12 +5,12 @@ credit by karpblch
 
 # from tkinter import *
 # from tkinter.ttk import Combobox
-
+credit by karpblch
 
 # def clicked():
 #     res = "Привет {}".format(txt.get())
 #     lbl.configure(text=res)
-
+credit by karpblch
 
 # window = Tk()
 # window.title("Добро пожаловать в приложение PythonRu")
@@ -27,7 +27,7 @@ credit by karpblch
 # combo.grid(column=0, row=1)
 # window.mainloop()
 # window.mainloop()
-
+credit by karpblch
 
 
 
@@ -38,7 +38,7 @@ my_dict["age"] = input("Сколько тебе лет?")
 my_dict["city"] = input("Откуда ты?")
 print(my_dict)
 
-
+credit by karpblch
 
 
 # задание 7
@@ -51,7 +51,7 @@ for i in list:
     print(f'{list}')
 print(f'Сумма: {sum(list)}')
 
-
+credit by karpblch
 
 # задание 6
 # часть 1
@@ -59,7 +59,7 @@ n = int(input("Введите целое число: "))
 for i in range(n+1):
     print(i)
     i += 1
-
+credit by karpblch
 # часть 2
 n = int(input("Введите целое число: "))
 i = 0
@@ -67,7 +67,7 @@ while i <= n:
     print(i)
     i += 1
 
-
+credit by karpblch
 
 
  # задание 5
@@ -81,7 +81,7 @@ elif klava > 10:
 else:
     print("Число не соответствует условиям")
 
-
+credit by karpblch
 
 list = [1,2,"еей",'еее', True, False,5,"tt",7,9]
 print(list[1:10:2])
@@ -90,3 +90,4 @@ list[0] = True # Изменяет  0 объект списка
 list[7] = 99 # Изменяет  7 объект списка  
 list[1] = False # Изменяет  1 объект списка  
 print(list) # Вывод измененного списка
+credit by karpblch
