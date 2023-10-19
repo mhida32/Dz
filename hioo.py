@@ -62,6 +62,7 @@ for i in range(n+1):
 
 # часть 2
 n = int(input("Введите целое число: "))
+i = 0
 while i <= n:
     print(i)
     i += 1
