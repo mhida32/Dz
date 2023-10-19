@@ -54,18 +54,17 @@ print(f'Сумма: {sum(list)}')
 
 
 # задание 6
-
+# часть 1
 n = int(input("Введите целое число: "))
-i = 0
+for i in range(n+1):
+    print(i)
+    i += 1
+
+# часть 2
+n = int(input("Введите целое число: "))
 while i <= n:
     print(i)
     i += 1
-print(f"i-{i},pot-{n}")
-
-
-
-
-
 
 
 
