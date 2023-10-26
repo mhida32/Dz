@@ -47,8 +47,6 @@ print(list)
 print(f'Первое число: {list[0]}')
 print(f'Второе число: {list[1]}')
 print(f'третье число: {list[2]}')
-for i in list:
-    print(f'{list}')
 print(f'Сумма: {sum(list)}')
 
 credit by karpblch
