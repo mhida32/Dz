@@ -32,12 +32,16 @@ credit by karpblch
 
 
 # задание 8
-my_dict = dict(name = '',age = 0, city = "")
-my_dict["name"] = input("Как тебя зовут?")
-my_dict["age"] = input("Сколько тебе лет?")
-my_dict["city"] = input("Откуда ты?")
-print(my_dict)
-
+dict = dict(
+    name = 'Ilya',
+    age = 18,
+    city = "Moscow"
+) # Словарь
+dict["age"] = 10 # Измение в ключе age значение (18 -> 10)
+dict.update({"email":"ilya@example.ru"}) # Добавление в словаря ключа email с его значение ilya@example.ru
+mdict.pop('city') # Удаление из словаря ключа city и его значения Moscow
+for key, velua in dict.items(): # Цикл на вывод словаря
+    print(f"Ключ: {key}, Значение: {velua}")# Вывод словаря
 credit by karpblch
 
 
@@ -48,6 +52,7 @@ print(f'Первое число: {list[0]}')
 print(f'Второе число: {list[1]}')
 print(f'третье число: {list[2]}')
 print(f'Сумма: {sum(list)}')
+
 
 credit by karpblch
 
