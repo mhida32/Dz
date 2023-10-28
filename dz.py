@@ -11,7 +11,7 @@ dict = dict(
 ) # Словарь
 dict["age"] = 10 # Измение в ключе age значение (18 -> 10)
 dict.update({"email":"ilya@example.ru"}) # Добавление в словаря ключа email с его значение ilya@example.ru
-mdict.pop('city') # Удаление из словаря ключа city и его значения Moscow
+dict.pop('city') # Удаление из словаря ключа city и его значения Moscow
 for key, velua in dict.items(): # Цикл на вывод словаря
     print(f"Ключ: {key}, Значение: {velua}")# Вывод словаря
 credit by karpblch
