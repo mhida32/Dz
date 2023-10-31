@@ -1,7 +1,38 @@
 # ЭТО НЕ ГДЗ , А ОБРАЗЦЫ!!!!!!!!!!!
-# 9 - 10 задание в работе 
+
+credit by karpblch
+# 10 задание 
+# 1 часть(Вторая часть скоро будет)
+from tkinter import *
+import random
+
+definitions = {
+    "While": "Цикл 'while' используется для выполнения блока кода, пока условие истинно.",
+    "For": "Цикл 'for' используется для итерации по элементам последовательности (например, списку или строке).",
+    "If": "Условие 'if' позволяет выполнить определенный блок кода, если условие истинно.",
+    "Function": "Функция - это блок кода, который можно вызывать с определенными аргументами.",
+    "List": "Список - это упорядоченная коллекция элементов, которая может содержать разные типы данных."
+}
+
+def show_random_definition():
+    global definitions
+    a = random.choice(list(definitions.keys()))
+    definition_text['text'] = definitions.get(a)
+     
+win = Tk()
+win.geometry('600x600')
+win.title('Определения Python')
+definition_text = Label(win,text="Вывод")
+definition_text.pack()
+baton = Button(win,text="Показать определение",command=show_random_definition)
+baton.pack()
+
+win.mainloop() # удержание окна
+
+credit by karpblch
 
 # 9 задание
+# 1 часть
 from tkinter import *
 
 def massage():
@@ -26,12 +57,43 @@ lb.grid(column=1,row=2)
 baton = Button(win,text="Нажми",command=massage)
 baton.grid(column=1,row=3)
 
+win.mainloop() # удержание окна
+
+credit by karpblch
+
+# 2 часть
+from tkinter import *
+
+def massage():
+    winn = Tk()
+    winn.geometry('500x500')
+    winn.title('Задание 9.1')
+    lb1 = Label(winn,text=pole.get())
+    lb1.grid(column=1,row=1)
+
+def clear_lb():
+    pole.delete(0,END)
+    
+
+win = Tk()
+win.geometry('500x500')
+win.title('Задание 9')
+
+pole = Entry(win)
+pole.grid(column=1,row=1)
+
+# lb = Label(win,text="Вывод")
+# lb.grid(column=1,row=2)
+
+baton = Button(win,text="Нажми",command=massage)
+baton.grid(column=1,row=3)
+
+сlear = Button(win,text="Удаление",command=clear_lb)
+сlear.grid(column=2,row=1)
 
 
 
 win.mainloop() # удержание окна
-
-
 
 
 credit by karpblch
