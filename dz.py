@@ -1,6 +1,39 @@
 # ЭТО НЕ ГДЗ , А ОБРАЗЦЫ!!!!!!!!!!!
 # 9 - 10 задание в работе 
 
+# 9 задание
+from tkinter import *
+
+def massage():
+    lb["text"] = pole.get()
+    winn = Tk()
+    winn.geometry('500x500')
+    winn.title('Задание 9.1')
+    lb1 = Label(winn,text=pole.get())
+    lb1.grid(column=1,row=1)
+
+
+win = Tk()
+win.geometry('500x500')
+win.title('Задание 9')
+
+pole = Entry(win)
+pole.grid(column=1,row=1)
+
+lb = Label(win,text="Вывод")
+lb.grid(column=1,row=2)
+
+baton = Button(win,text="Нажми",command=massage)
+baton.grid(column=1,row=3)
+
+
+
+
+win.mainloop() # удержание окна
+
+
+
+
 credit by karpblch
 
 # задание 8
