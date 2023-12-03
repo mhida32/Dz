@@ -11,3 +11,43 @@ numbers = ("12","1","2","66")
 print(f"Последний элемент из кортежа: {numbers[3]}")
 
 credit by karpblch
+
+# Задание 2
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 3
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 4
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 5
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 6
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 7
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 8
+credit by karpblch
+pass
+credit by karpblch
+
+# Задание 9
+credit by karpblch
+pass
+credit by karpblch
