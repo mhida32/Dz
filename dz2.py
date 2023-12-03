@@ -2,13 +2,13 @@
 credit by karpblch
 # Задание 1
 
-car = {'марка':'LADA','модель': 'VESTA SPORTLINE','год': '2023'}
-car.update({'цвет': 'Серый'})
-print(f"Значение ключа 'марка': {car.get('марка')}")
-fruits = ("яблоко","виноград","клубника","капуста","лук")
-print(f"Первый элемент из списка{fruits[0]}")
-numbers = ("12","1","2","66")
-print(f"Последний элемент из кортежа: {numbers[3]}")
+car = {'марка':'','модель': '','год': ''}
+car.update({'цвет': ''})
+print(car.get('марка'))
+fruits = (" "," ")
+print(fruits[0])
+numbers = (" ","")
+print(numbers[3])
 
 credit by karpblch
 
