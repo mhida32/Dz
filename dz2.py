@@ -3,11 +3,11 @@ credit by karpblch
 # Задание 1
 
 car = {'марка':'','модель': '','год': ''}
-car.update({'цвет': ''})
+car.update({'цвет': ' '})
 print(car.get('марка'))
 fruits = (" "," ")
 print(fruits[0])
-numbers = (" ","")
+numbers = (" "," ")
 print(numbers[3])
 
 credit by karpblch
