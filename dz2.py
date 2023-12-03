@@ -6,9 +6,9 @@ car = {'марка':'','модель': '','год': ''}
 car.update({'цвет': ' '})
 print(car.get('марка'))
 fruits = (" "," ")
-print(fruits[0])
+print(fruits[])
 numbers = (" "," ")
-print(numbers[3])
+print(numbers[])
 
 credit by karpblch
 
