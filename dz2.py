@@ -22,9 +22,17 @@ for row in lst:
 
 credit by karpblch
 
-# Задание 3
+# Задание 3 (Может изменится)
 credit by karpblch
-pass
+class car:
+    def display_info(car):
+        make = "название марки"
+        model = 'модель'
+        year = год
+        print({make}\n{model}\n{year})
+
+переменная = car()
+переменная.display_info()
 credit by karpblch
 
 # Задание 4
