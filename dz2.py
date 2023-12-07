@@ -17,7 +17,8 @@ credit by karpblch
 
 lst = [[i * 3 + j + 1 for j in range(3)] for i in range(3)]
 
-print(*lst,sep='\n',end='\n')
+for row in lst:
+    print(' '.join(map(str, row)))
 
 credit by karpblch
 
