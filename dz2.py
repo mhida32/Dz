@@ -24,8 +24,9 @@ credit by karpblch
 
 # Задание 3 (Может изменится)
 credit by karpblch
+
 class car:
-    def display_info(car):
+    def display_info(self):
         make = "название марки"
         model = 'модель'
         year = год
@@ -33,6 +34,7 @@ class car:
 
 переменная = car()
 переменная.display_info()
+
 credit by karpblch
 
 # Задание 4
