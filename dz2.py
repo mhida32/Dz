@@ -26,14 +26,19 @@ credit by karpblch
 # Задание 3 (Может изменится)
 credit by karpblch
 
-class car:
+class Car:
+    '''Машина'''
+    def __init__(self, make:str, model:str, year:int) -> None:
+        '''Информация о машине'''
+        self.make = make
+        self.model = model
+        self.year = year
     def display_info(self):
-        make = "название марки"
-        model = 'модель'
-        year = год
-        print({make}\n{model}\n{year})
+        '''Вывод информации о машине'''
+        print(f"Марка машины: {self.make}\nМодель машины: {self.model}\nГод машины: {self.year}")
+        
 
-переменная = car()
+переменная = Car(Сюда написать марку машины , модель и год)
 переменная.display_info()
 
 credit by karpblch
