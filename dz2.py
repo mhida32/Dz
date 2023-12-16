@@ -45,12 +45,37 @@ credit by karpblch
 
 # Задание 4
 credit by karpblch
-pass
+class Animal:
+    def __init__(self,name, species) -> None:
+        self.name = name
+        self.species = species 
+
+
+    def make_sound(self): 
+        print("Текст")
+
+class Dog(Animal): 
+    def make_sound(self): 
+        print("Текст")
+    
+class Cat(Animal): # подкласс Cat
+    def make_sound(self):
+        print("Текст")
+
+animal = Animal("Текст","Текст")
+animal.make_sound()
+dog = Dog("Текст","Текст")
+dog.make_sound()
+cat = Cat("Текст","Текст")
+cat.make_sound()
 credit by karpblch
 
 # Задание 5
 credit by karpblch
-pass
+with open('sample.txt','w',encoding='utf-8') as f: 
+    f.write("Текст") 
+with open('sample.txt','r',encoding='utf-8') as f:
+    print(f.read()) 
 credit by karpblch
 
 # Задание 6
