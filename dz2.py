@@ -88,7 +88,7 @@ pygame.init()
  
 FRAME_COLOR = (120, 180, 205)
 
-FPS = 5 
+FPS = 1 
 
 WIDHT_COUNT_RECT = 20 
 
