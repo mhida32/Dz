@@ -2,7 +2,7 @@
 credit by karpblch
 
 # Задание 1
-import telebot
+import pyTelegramBotAPI
 from bot_token import TOKEN
 
 
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 credit by karpblch
 
 # Задание 2
-import telebot
+import pyTelegramBotAPI
 import random
 from bot_token import TOKEN
 
