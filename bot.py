@@ -41,3 +41,27 @@ if __name__ == '__main__':
     bot.infinity_polling()
 
 credit by karpblch
+
+# Задание 2
+credit by karpblch
+import telebot
+import requests
+from bot_token import TOKEN
+
+bot = telebot.TeleBot(TOKEN)
+
+    
+@bot.message_handler(commands=["coffee"])
+def send_cat(message):
+    r = requests.get('https://coffee.alexflipnote.dev/random.json')
+    url = r.json()['file']
+    bot.send_photo(message.chat.id, url)
+    
+
+if __name__ == '__main__':
+    bot.infinity_polling()
+    
+
+
+credit by karpblch
+
