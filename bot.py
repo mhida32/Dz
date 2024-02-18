@@ -61,7 +61,5 @@ def send_cat(message):
 if __name__ == '__main__':
     bot.infinity_polling()
     
-
-
 credit by karpblch
 
