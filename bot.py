@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 credit by karpblch
 
-# Задание 3
+# Задание 4
 credit by karpblch
 import telebot
 import requests
