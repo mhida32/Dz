@@ -41,7 +41,26 @@ if __name__ == '__main__':
     bot.infinity_polling()
 
 credit by karpblch
+# Задание 2
+credit by karpblch
+import telebot
+import requests
+from bot_token import TOKEN
 
+bot = telebot.TeleBot(TOKEN)
+
+@bot.message_handler(content_types=["text"])
+def echo(message):
+    try:
+        quest = message.text.split('\n')
+        del quest[0]
+        bot.send_poll(message.chat.id, message.text.split('\n'),quest)
+    except telebot.apihelper.ApiTelegramException:
+        bot.send_message(message.chat.id, "В вашем сообщении должно быть от 3 до 11 строк")
+
+if __name__ == '__main__':
+    bot.infinity_polling()
+credit by karpblch
 # Задание 4
 credit by karpblch
 import telebot
