@@ -41,7 +41,7 @@ if __name__ == '__main__':
     bot.infinity_polling()
 
 credit by karpblch
-# Задание 2
+# Задание 3
 credit by karpblch
 import telebot
 import requests
