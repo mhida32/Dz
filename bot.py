@@ -43,7 +43,7 @@ if __name__ == '__main__':
 credit by karpblch
 # Задание 3
 credit by karpblch
-import telebot
+import pyTelegramBotAPI
 import requests
 from bot_token import TOKEN
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 credit by karpblch
 # Задание 4
 credit by karpblch
-import telebot
+import pyTelegramBotAPI
 import requests
 from bot_token import TOKEN
 
