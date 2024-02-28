@@ -82,3 +82,16 @@ if __name__ == '__main__':
     
 credit by karpblch
 
+# Задание 5
+credit by karpblch
+import pyTelegramBotAPI
+import requests
+from bot_token import TOKEN
+
+# soon...
+
+if __name__ == '__main__':
+    bot.infinity_polling()
+bot = telebot.TeleBot(TOKEN)
+
+credit by karpblch
