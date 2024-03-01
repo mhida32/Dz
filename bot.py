@@ -82,7 +82,7 @@ if __name__ == '__main__':
     
 credit by karpblch
 
-# Задание 5
+# Задание 6
 credit by karpblch
 import pyTelegramBotAPI
 import requests
