@@ -88,7 +88,22 @@ import pyTelegramBotAPI
 import requests
 from bot_token import TOKEN
 
-# soon...
+@bot.message_handler(commands=["start"])
+def echo(message):
+   key = telebot.types.InlineKeyboardMarkup()
+   lst = []
+   for i in range(5):
+    lst.append(telebot.types.InlineKeyboardButton(text=i,callback_data=str(i)))
+    key.row(*lst)
+    bot.send_message(message.chat.id,'Выберай',reply_markup=key)
+
+
+@bot.callback_query_handler(func= lambda call:True)
+def callback(call):
+    if random.randint(0,4) == int(call.data):
+        bot.send_message(call.message.chat.id, f'{call.message.username} выиграл')
+    else:
+        bot.send_message(call.message.chat.id, f'{call.message.username} проиграл')
 
 if __name__ == '__main__':
     bot.infinity_polling()
