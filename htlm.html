@@ -57,7 +57,7 @@ import random
 
 def name_func(requestname):
     numbers = [random.randint(0, 3) for _ in range(3)]
-    if all(numnumber == numbers[0] for number in numbers):
+    if all(number == numbers[0] for number in numbers):
         return HttpResponse(f'Победа, все 3 числа равны!')
     else:
         return HttpResponse(f'Повезет в следующий раз!')
@@ -66,7 +66,7 @@ def name_func(requestname):
 from django.contrib import admin
 from django.urls import path
 
-#urls.py
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('game/',name_func),
@@ -77,5 +77,25 @@ urlpatterns = [
 by karpblch
 Задание №4
 by karpblch
-soon....
+Это в файле views.py
+def page1(requestname):
+    lst = [
+        "СЮДА ТЕКСТ"]
+    lst_echo = random.choice(lst)
+    return HttpResponse(f'{lst_echo}')
+def page2(requestname):
+    lst = [
+        "СЮДА ТЕКСТ"]
+    lst_echo = random.choice(lst)
+    return HttpResponse(f'{lst_echo}')
+
+Это в файле urls.py
+from django.contrib import admin
+from django.urls import path, include, re_path
+from website.views import *
+
+urlpatterns = [
+    path('pages/page1',page1),
+    path('pages/page2',page2),
+]
 by karpblch
