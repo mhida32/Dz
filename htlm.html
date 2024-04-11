@@ -49,8 +49,31 @@ by karpblch
 </html>
 by karpblch
 Задание №3
+Это в файле views.py
 by karpblch
-soon....
+from django.shortcuts import render
+from django.http import HttpResponse
+import random
+
+def name_func(requestname):
+    numbers = [random.randint(0, 3) for _ in range(3)]
+    if all(numnumber == numbers[0] for number in numbers):
+        return HttpResponse(f'Победа, все 3 числа равны!')
+    else:
+        return HttpResponse(f'Повезет в следующий раз!')
+
+Это в файле urls.py
+from django.contrib import admin
+from django.urls import path
+
+#urls.py
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('game/',name_func),
+
+]
+
+
 by karpblch
 Задание №4
 by karpblch
